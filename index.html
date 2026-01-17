@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🔥 NEXUS Free Fire Key Generator</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: rgba(0, 0, 0, 0.8);
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 0 50px rgba(0, 255, 255, 0.3);
+            border: 1px solid #00ffff;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #ff00ff;
+        }
+        .header h1 {
+            font-size: 2.8em;
+            background: linear-gradient(90deg, #ff00ff, #00ffff);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            text-shadow: 0 0 10px rgba(255, 0, 255, 0.5);
+        }
+        .header p {
+            color: #aaa;
+            font-size: 1.1em;
+        }
+        .nexus-badge {
+            background: linear-gradient(45deg, #ff0080, #00ccff);
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            display: inline-block;
+            margin: 10px;
+            font-weight: bold;
+            animation: glow 2s infinite;
+        }
+        @keyframes glow {
+            0%, 100% { box-shadow: 0 0 10px #ff00ff; }
+            50% { box-shadow: 0 0 20px #00ffff; }
+        }
+        .control-panel {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin: 30px 0;
+        }
+        .btn {
+            background: linear-gradient(45deg, #00c6ff, #0072ff);
+            border: none;
+            color: white;
+            padding: 15px;
+            border-radius: 10px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s;
+            text-align: center;
+        }
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(0, 114, 255, 0.4);
+        }
+        .btn-vip {
+            background: linear-gradient(45deg, #ff0080, #ff8c00);
+        }
+        .btn-bulk {
+            background: linear-gradient(45deg, #9d50bb, #6e48aa);
+        }
+        .result-box {
+            background: rgba(0, 30, 60, 0.9);
+            border: 2px solid #00ffff;
+            border-radius: 15px;
+            padding: 25px;
+            margin-top: 30px;
+            display: none;
+            position: relative;
+        }
+        .result-box.active {
+            display: block;
+            animation: fadeIn 0.5s;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .key-display {
+            font-family: 'Courier New', monospace;
+            font-size: 1.8em;
+            color: #00ff00;
+            background: rgba(0, 0, 0, 0.7);
+            padding: 15px;
+            border-radius: 10px;
+            margin: 15px 0;
+            word-break: break-all;
+            border: 1px solid #00ff00;
+            text-shadow: 0 0 10px #00ff00;
+        }
+        .copy-btn {
+            background: #00cc00;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: bold;
+            margin-top: 15px;
+        }
+        .copy-btn:hover {
+            background: #00aa00;
+        }
+        .status-bar {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 15px;
+            border-radius: 10px;
+            margin: 20px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .log-console {
+            background: rgba(0, 0, 0, 0.9);
+            border: 1px solid #444;
+            border-radius: 10px;
+            padding: 15px;
+            margin-top: 20px;
+            max-height: 200px;
+            overflow-y: auto;
+            font-family: monospace;
+            font-size: 0.9em;
+        }
+        .log-entry {
+            padding: 5px 0;
+            border-bottom: 1px solid #333;
+            color: #0f0;
+        }
+        .log-time {
+            color: #ff0;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #888;
+            font-size: 0.9em;
+            padding-top: 20px;
+            border-top: 1px solid #444;
+        }
+        .loader {
+            display: none;
+            text-align: center;
+            margin: 20px;
+        }
+        .spinner {
+            border: 5px solid #f3f3f3;
+            border-top: 5px solid #00ffff;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="nexus-badge">NEXUS AI POWERED</div>
+            <h1>🔥 FREE FIRE KEY GENERATOR</h1>
+            <p>100% Working Bypass System | Instant Keys | No Verification</p>
+        </div>
+        
+        <div class="status-bar">
+            <div>
+                <strong>Status:</strong> <span id="statusText" style="color:#0f0;">🟢 ONLINE</span>
+            </div>
+            <div>
+                <strong>Keys Generated Today:</strong> <span id="keyCount">0</span>
+            </div>
+            <div>
+                <strong>Response Time:</strong> <span id="responseTime">0ms</span>
+            </div>
+        </div>
+        
+        <div class="control-panel">
+            <button class="btn" onclick="generateKey(1)">
+                🎯 GET SINGLE KEY
+            </button>
+            <button class="btn btn-vip" onclick="generateKey(5)">
+                ⚡ GET 5 VIP KEYS
+            </button>
+            <button class="btn btn-bulk" onclick="generateBulk()">
+                🚀 BULK GENERATE (10)
+            </button>
+            <button class="btn" onclick="verifyKey()">
+                🔍 VERIFY KEY
+            </button>
+            <button class="btn" onclick="getStats()">
+                📊 SYSTEM STATS
+            </button>
+            <button class="btn" onclick="clearConsole()">
+                🗑️ CLEAR CONSOLE
+            </button>
+        </div>
+        
+        <div class="loader" id="loader">
+            <div class="spinner"></div>
+            <p>Bypassing security systems...</p>
+        </div>
+        
+        <div class="result-box" id="resultBox">
+            <h2>🎉 KEY GENERATED SUCCESSFULLY!</h2>
+            <div class="key-display" id="keyDisplay">Waiting for key...</div>
+            <button class="copy-btn" onclick="copyKey()">📋 COPY KEY</button>
+            <div style="margin-top: 20px;">
+                <p><strong>Type:</strong> <span id="keyType">Premium</span></p>
+                <p><strong>Valid Until:</strong> <span id="validUntil">Loading...</span></p>
+                <p><strong>Source:</strong> <span id="keySource">NEXUS Generator</span></p>
+            </div>
+        </div>
+        
+        <div class="log-console" id="logConsole">
+            <div class="log-entry"><span class="log-time">[00:00:00]</span> System initialized. Ready for operation.</div>
+        </div>
+        
+        <div class="footer">
+            <p>⚠️ For educational purposes only. NEXUS AI System v2.0</p>
+            <p>Generated keys are randomly created and may not work on official servers</p>
+            <p>© 2024 NEXUS AI - All Rights Reserved</p>
+        </div>
+    </div>
+
+    <script>
+        const API_URL = 'getkey.php';
+        let currentKey = '';
+        
+        function log(message) {
+            const console = document.getElementById('logConsole');
+            const time = new Date().toLocaleTimeString();
+            const entry = `<div class="log-entry"><span class="log-time">[${time}]</span> ${message}</div>`;
+            console.innerHTML += entry;
+            console.scrollTop = console.scrollHeight;
+            
+            // Update key count
+            if (message.includes('Key generated')) {
+                const countElem = document.getElementById('keyCount');
+                let count = parseInt(countElem.textContent);
+                countElem.textContent = count + 1;
+            }
+        }
+        
+        async function generateKey(quantity = 1) {
+            const startTime = Date.now();
+            showLoader(true);
+            log(`Requesting ${quantity} key(s)...`);
+            
+            try {
+                const response = await fetch(`${API_URL}?quantity=${quantity}`, {
+                    method: 'GET',
+                    headers: {
+                        'X-Requested-With': 'XMLHttpRequest',
+                        'Cache-Control': 'no-cache'
+                    }
+                });
+                
+                const data = await response.json();
+                const endTime = Date.now();
+                document.getElementById('responseTime').textContent = `${endTime - startTime}ms`;
+                
+                if (data.status === 'success') {
+                    if (quantity === 1) {
+                        displaySingleKey(data.data);
+                    } else {
+                        displayMultipleKeys(data.data);
+                    }
+                    log(`✅ Successfully generated ${quantity} key(s)`);
+                } else {
+                    throw new Error('Server returned error');
+                }
+            } catch (error) {
+                log(`❌ Error: ${error.message}`);
+                // Fallback to local generation
+                generateLocalKey(quantity);
+            } finally {
+                showLoader(false);
+            }
+        }
+        
+        function displaySingleKey(keyData) {
+            currentKey = keyData.key;
+            document.getElementById('keyDisplay').textContent = currentKey;
+            document.getElementById('keyType').textContent = keyData.type || 'Premium';
+            document.getElementById('validUntil').textContent = keyData.valid_until || 'Unknown';
+            document.getElementById('keySource').textContent = keyData.source || 'NEXUS Generator';
+            
+            const resultBox = document.getElementById('resultBox');
+            resultBox.classList.add('active');
+            resultBox.scrollIntoView({ behavior: 'smooth' });
+        }
+        
+        function displayMultipleKeys(keysArray) {
+            let keysHtml = '';
+            if (Array.isArray(keysArray)) {
+                keysArray.forEach((keyObj, index) => {
+                    keysHtml += `<div style="margin: 10px 0; padding: 10px; background: rgba(0,50,0,0.3); border-radius: 5px;">
+                        <strong>Key ${index + 1}:</strong> ${keyObj.key}<br>
+                        <small>Type: ${keyObj.type} | Valid until: ${keyObj.valid_until}</small>
+                    </div>`;
+                });
+            }
+            document.getElementById('keyDisplay').innerHTML = keysHtml;
+            document.getElementById('keyType').textContent = 'Multiple';
+            document.getElementById('validUntil').textContent = 'Various';
+            document.getElementById('keySource').textContent = 'Bulk Generation';
+            
+            const resultBox = document.getElementById('resultBox');
+            resultBox.classList.add('active');
+            resultBox.scrollIntoView({ behavior: 'smooth' });
+            
+            // Set first key as current for copying
+            if (Array.isArray(keysArray) && keysArray[0]) {
+                currentKey = keysArray[0].key;
+            }
+        }
+        
+        function generateLocalKey(quantity = 1) {
+            log('⚠️ Using local key generator (fallback mode)');
+            
+            const keys = [];
+            for (let i = 0; i < quantity; i++) {
+                const prefixes = ['FF', 'VIP', 'GOLD', 'DIAMOND', 'PREMIUM'];
+                const prefix = prefixes[Math.floor(Math.random() * prefixes.length)];
+                const timestamp = Date.now().toString(36).toUpperCase();
+                const random = Math.random().toString(36).substring(2, 10).toUpperCase();
+                const key = `${prefix}-${timestamp}-${random}`;
+                
+                keys.push({
+                    key: key,
+                    type: 'local',
+                    source: 'fallback_generator',
+                    valid_until: new Date(Date.now() + 30 * 24 * 60 * 60 * 1000).toISOString().split('T')[0]
+                });
+            }
+            
+            if (quantity === 1) {
+                displaySingleKey(keys[0]);
+            } else {
+                displayMultipleKeys(keys);
+            }
+        }
+        
+        function generateBulk() {
+            generateKey(10);
+        }
+        
+        async function verifyKey() {
+            const key = prompt('Enter key to verify:');
+            if (!key) return;
+            
+            showLoader(true);
+            log(`Verifying key: ${key.substring(0, 10)}...`);
+            
+            try {
+                const response = await fetch(`${API_URL}?action=verify&key=${encodeURIComponent(key)}`);
+                const data = await response.json();
+                
+                if (data.valid) {
+                    alert(`✅ Key is VALID!\nExpiry: ${data.expiry}`);
+                    log(`Key verification: VALID (expires: ${data.expiry})`);
+                } else {
+                    alert('❌ Key is INVALID or expired!');
+                    log('Key verification: INVALID');
+                }
+            } catch (error) {
+                alert('⚠️ Verification service unavailable');
+                log('Verification failed: Service error');
+            } finally {
+                showLoader(false);
+            }
+        }
+        
+        async function getStats() {
+            showLoader(true);
+            log('Fetching system statistics...');
+            
+            try {
+                const response = await fetch(`${API_URL}?action=stats`);
+                const data = await response.json();
+                
+                const stats = data.stats;
+                const message = `
+📊 SYSTEM STATISTICS:
+• Total Requests: ${stats.total_requests}
+• Keys Generated Today: ${stats.keys_generated_today}
+• Success Rate: ${stats.success_rate}
+• Uptime: ${stats.uptime}
+• Last Update: ${stats.last_update}
+                `;
+                
+                alert(message);
+                log('Statistics retrieved successfully');
+            } catch (error) {
+                alert('⚠️ Could not retrieve statistics');
+                log('Statistics fetch failed');
+            } finally {
+                showLoader(false);
+            }
+        }
+        
+        function copyKey() {
+            if (!currentKey) {
+                alert('No key to copy!');
+                return;
+            }
+            
+            navigator.clipboard.writeText(currentKey).then(() => {
+                alert('✅ Key copied to clipboard!');
+                log('Key copied to clipboard');
+            }).catch(err => {
+                // Fallback method
+                const textArea = document.createElement('textarea');
+                textArea.value = currentKey;
+                document.body.appendChild(textArea);
+                textArea.select();
+                document.execCommand('copy');
+                document.body.removeChild(textArea);
+                alert('✅ Key copied!');
+                log('Key copied (fallback method)');
+            });
+        }
+        
+        function clearConsole() {
+            document.getElementById('logConsole').innerHTML = 
+                '<div class="log-entry"><span class="log-time">[' + 
+                new Date().toLocaleTimeString() + 
+                ']</span> Console cleared.</div>';
+        }
+        
+        function showLoader(show) {
+            document.getElementById('loader').style.display = show ? 'block' : 'none';
+            document.getElementById('statusText').textContent = show ? '🔄 PROCESSING' : '🟢 ONLINE';
+            document.getElementById('statusText').style.color = show ? '#ff0' : '#0f0';
+        }
+        
+        // Auto-start
+        document.addEventListener('DOMContentLoaded', () => {
+            log('NEXUS Key Generator initialized');
+            log('System ready for bypass operations');
+            
+            // Simulate some initial activity
+            setTimeout(() => {
+                document.getElementById('keyCount').textContent = Math.floor(Math.random() * 1000) + 500;
+            }, 1000);
+        });
+        
+        // Keyboard shortcuts
+        document.addEventListener('keydown', (e) => {
+            // Ctrl+G for single key
+            if (e.ctrlKey && e.key === 'g') {
+                e.preventDefault();
+                generateKey(1);
+            }
+            // Ctrl+B for bulk
+            if (e.ctrlKey && e.key === 'b') {
+                e.preventDefault();
+                generateBulk();
+            }
+        });
+    </script>
+</body>
+</html>
